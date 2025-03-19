@@ -1,0 +1,32 @@
+{
+    "name": "convenience-store-pos",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start"
+    },
+    "dependencies": {
+        "@chakra-ui/icons": "^2.2.4",
+        "@chakra-ui/react": "^2.8.0",
+        "@emotion/react": "^11.11.1",
+        "@emotion/styled": "^11.11.0",
+        "@prisma/client": "^6.5.0",
+        "bcryptjs": "^3.0.2",
+        "framer-motion": "^10.18.0",
+        "next": "^15.2.2-canary.6",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "react-icons": "^5.5.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.11.28",
+        "@types/react": "^18.2.0",
+        "@types/react-dom": "^18.2.0",
+        "prisma": "^6.5.0",
+        "ts-node": "^10.9.2",
+        "tsconfig-paths": "^4.2.0",
+        "typescript": "^5.4.5"
+    }
+}

@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "module": "commonjs", // Change to commonjs
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    },
+    "noEmit": true, // Set to false if you need to emit JS files for the seed script
+    "incremental": true,
+    "esModuleInterop": true, // Ensure this is enabled
+    "outDir": "./dist", // Add this to specify the output directory for compiled files
+    "rootDir": "." // Ensure the root directory is correctly set
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "prisma/seed.ts" // Explicitly include the seed file
+  ],
+  "exclude": ["node_modules"]
+}

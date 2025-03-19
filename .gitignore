@@ -1,0 +1,21 @@
+# Ignore dependencies
+node_modules/
+
+# Ignore environment variables
+.env
+
+# Ignore Next.js build files
+.next/
+out/
+
+# Ignore Prisma database files (if using SQLite)
+prisma/dev.db
+prisma/migrations/
+
+# Ignore logs and cache
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Ignore Docker build files (optional)
+docker-compose.override.yml
