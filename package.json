@@ -20,6 +20,9 @@
         "react-dom": "18.2.0",
         "react-icons": "^5.5.0"
     },
+    "prisma": {
+        "seed": "ts-node prisma/seed.ts"
+    },
     "devDependencies": {
         "@types/node": "^20.11.28",
         "@types/react": "^18.2.0",
